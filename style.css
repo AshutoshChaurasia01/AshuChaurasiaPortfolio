@@ -891,3 +891,39 @@ footer ul li a:hover{
         font-size: 0.9rem;
        }
 }
+@media(max-height:660px){
+    .about h1{
+        padding-bottom: 10px;
+    }
+    .image{
+        margin-top: 80px;
+    }
+    .home_content img{
+        height: 200px;
+    }
+    .about{
+        height: 140vh;
+    }
+    .home{
+        height: 120vh;
+    }
+}
+@media(max-height:490px){
+    .home_content.btn_box{
+        margin-top: 0;
+    }
+    .home{
+        height: 140vh;
+    }
+    .home_content h1{
+        font-size: 1.5rem;
+    }
+    .about{
+        height: 200vh;
+    }
+}
+@media(max-height:370px){
+    .home{
+        height: 160vh;
+    }
+}
