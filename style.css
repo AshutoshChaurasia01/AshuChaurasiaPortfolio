@@ -595,7 +595,7 @@ body{
 button:hover{
     background-color: #00acf08f;
     box-shadow: 3px 3px 15px #00abf0;
-    color: #000;
+    color: black;
     transform: scale(1.04);
 
 }
